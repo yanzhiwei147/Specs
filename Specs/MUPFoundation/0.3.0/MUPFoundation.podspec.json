@@ -18,6 +18,9 @@
     "ios": 6.0
   },
   "frameworks": "MUPFoundation",
+  "xcconfig": {
+        "FRAMEWORK_SEARCH_PATHS": "\"$(PODS_ROOT)/MUPFoundation\""
+      }
   "preserve_paths" : [
   "*.framework"
   ],
