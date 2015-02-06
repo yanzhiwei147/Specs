@@ -12,7 +12,7 @@
     "yanzw"
   ],
   "source": {
-    "git": "http://git.sdp.nd/arida/ios-versions/tree/master/MUPFoundation/0.3.0"
+    "svn": "http://192.168.9.129/svn/application/65_%E6%A0%A1%E5%8F%8BIOS/01_Trunk/4_DevProcess/3_Src/1_Source/NDChinaDream_Han_SDK/Release/SDK/MUPFoundation"
   },
   "platforms": {
     "ios": 6.0
