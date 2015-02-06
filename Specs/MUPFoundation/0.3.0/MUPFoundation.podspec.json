@@ -4,10 +4,7 @@
   "summary": "基于第三方框架以及系统框架的扩展apis",
   "description": "                   MUPFoundation框架是一款基于系统Foundation框架以及部分第三方进行构建的一套增强apis。她主要提供功能是数据库、设备能力封装、系统基础类扩展、网络封装、性能分析工具等.\n",
   "homepage": "http://git.sdp.nd/arida/mupfoundation-ios",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE.txt"
-  },
+  "license": "MIT",
   "authors": [
     "yanzw"
   ],
