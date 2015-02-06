@@ -8,19 +8,48 @@
   "authors": [
     "yanzw"
   ],
-  "source": {
-    "svn": "http://192.168.9.129/svn/application/65_%E6%A0%A1%E5%8F%8BIOS/01_Trunk/4_DevProcess/3_Src/1_Source/NDChinaDream_Han_SDK/Release/SDK/MUPFoundation"
-  },
+
   "platforms": {
     "ios": 6.0
   },
+
+  "source": {
+    "svn": "http://192.168.9.129/svn/application/65_%E6%A0%A1%E5%8F%8BIOS/01_Trunk/4_DevProcess/3_Src/1_Source/NDChinaDream_Han_SDK/Release/SDK/MUPFoundation"
+  },
+
+  "libraries": [
+        "z",
+        "sqlite3.dylib"
+  ],
+
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.5.0"
+    ],
+    "Mantle": [
+      "~> 1.5.4"
+    ],
+    "CocoaLumberjack": [
+      "~> 2.0.0-rc"
+    ],
+    "KVOController": [
+      "~> 1.0.3"
+    ],
+    "FMDB/SQLCipher": [
+      "~> 2.4"
+    ]
+  },
+
   "vendored_frameworks " : "MUPFoundation.framework",
-  "source_files": "*.framework",
+
+  "source_files": "MUPFoundation.framework",
   "public_header_files" : "MUPFoundation.framework/Headers/*.h",
   "preserve_paths" : "*.framework",
+
   "xcconfig": {
-        "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MUPFoundation",
-        "OTHER_LDFLAGS" : "-framework MUPFoundation"
-      },
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MUPFoundation",
+    "OTHER_LDFLAGS" : "-framework MUPFoundation"
+  },
+
   "requires_arc": true
 }
