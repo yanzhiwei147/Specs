@@ -1,0 +1,27 @@
+{
+  "name": "SmartCan",
+  "version": "0.3.0",
+  "summary": "共享平台MAF-iOS实现",
+  "description": "                   SmartCan 是由共享平台-MAF(Mobile App Framework)团队开发的一套在 iOS/Android 两个平台概念统一的MVC框架。\n",
+  "homepage": "http://192.168.9.129/svn/application/65_%E6%A0%A1%E5%8F%8BIOS/01_Trunk/4_DevProcess/3_Src/1_Source/NDChinaDream_Han_SDK/Debug/SDK/MAF",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.txt"
+  },
+  "authors": [
+    "yanzw",
+    "dingdd",
+    "matj",
+    "zhouwj"
+  ],
+  "source": {
+    "git": "// todo",
+    "tag": "0.3.0"
+  },
+  "platforms": {
+    "ios": 6.0
+  },
+  "source_files": "*.{h,m}",
+  "frameworks": "SmartCan",
+  "requires_arc": true
+}
